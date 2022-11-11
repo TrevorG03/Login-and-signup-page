@@ -5,7 +5,7 @@ body {
     padding: 0;
     font-size: 1rem;
     font-weight: 400;
-    color: #777;
+    color: rgb(39, 37, 31);
     line-height: 1.7;
 }
 
@@ -37,43 +37,9 @@ h1 {
     margin-bottom: 1rem;
 }
 
-h2 {
-    font-size: 2.5rem;
-    color: #f69314;
-    margin-bottom: 1rem;
-    line-height: 1.2;
-}
-
-h3 {
-    font-size: 1.4rem;
-    font-weight: 300;
-}
-
-h4 {
-    font-size: 1.2rem;
-    font-weight: 300;
-}
-
-h5 {
-    font-size: 1rem;
-    font-family: "Playfair Display", serif;
-}
-
 p {
     margin: 0 0 1rem;
 }
-
-button.rounded {
-    background: #f69314;
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    border-radius: 30px;
-    padding: 10px 30px;
-    line-height: 1.5;
-    cursor: pointer;
-}
-
 
 #header-hero-container {
     min-height: 600px;
@@ -84,12 +50,9 @@ button.rounded {
 header {
     background: transparent;
     padding: 1rem 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     position: fixed;
     width: 100%;
-    z-index: 3;
 }
-
 #logo {
     font-family: "Roboto", "Helvetica", "Sans-serif";
     font-size: 1.7rem;
@@ -130,7 +93,7 @@ header ul li {
 }
 
 header ul li a {
-    color: #999;
+    color: rgb(39, 37, 31);
     font-size: 16px;
     text-decoration: none;
 }
@@ -143,9 +106,9 @@ Body {
   background-color: pink;  
 }  
 button {   
-       background-color: #4CAF50;   
+       background-color:rgb(39, 37, 31);   
        width: 100%;  
-        color: orange;   
+        color: rgb(255, 199, 44);   
         padding: 15px;   
         margin: 10px 0px;   
         border: none;   
@@ -159,7 +122,7 @@ button {
         margin: 8px 0;  
         padding: 12px 20px;   
         display: inline-block;   
-        border: 2px solid yellow;   
+        border: 2px solid rgb(255, 199, 44);   
         box-sizing: border-box;   
     }  
  button:hover {   
@@ -174,5 +137,5 @@ button {
      
  .container {   
         padding: 25px;   
-        background-color: red;  
+        background-color: rgb(218 41 28);  
     }   
