@@ -1,13 +1,24 @@
-function createUser(username, password) {
-    var user = {username, password};
+function createUser(Username) {
+    var user = document.getElementById("Username");
     users.push(user);
 }
 
-function getUser(username, password) {
+function getUser(Username,) {
     return users.find(eachUser => {
-        return eachUser.username === username && eachUser.password === password;
+        return eachUser.Username === Username && eachUser.password === password;
     })
 }
+
+// function createUser(username, password) {
+//   var user = {username, password};
+//   users.push(user);
+// }
+
+// function getUser(username, password) {
+//   return users.find(eachUser => {
+//       return eachUser.username === username && eachUser.password === password;
+//   })
+// }
 
 var users = [];
 console.log(users)
