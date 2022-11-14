@@ -163,7 +163,7 @@ footer ul li a{
 .footer-quick-links{
     margin-left: 15%;
     margin-right: 15%;
-    flex-direction: row;
+    display: inline-block;
 }
 
 img{
