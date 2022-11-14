@@ -205,3 +205,13 @@ img{
     transform: rotateY(0);
 }
 
+#lsOutput {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+#outPutP {
+    font-size: 32px;
+    color: black;
+}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up Page</title>
     <link rel="stylesheet" href="signUp.css">
+    <script src="stored.js"></script>
 </head>
 <body>
     <div class="container">
@@ -28,10 +29,15 @@
         </header>
         <h1>Create Your McDonalds Rewards Account Now</h1>
             <label>Create your Username</label>
-            <input type="text" name="Username" placeholder="Your Username Here">
+            <input type="text" id="inputKey" placeholder="Your Username Here">
             <label>Create your Password</label>
-            <input type="password" name="Password" placeholder="Your Password Here">
-            <button type="submit">Create Account</button> 
+            <input type="password" id="inputValue" placeholder="Your Password Here">
+            <button type="button" id="btnInsert">Create Account</button>
+            <div id="lsOutput"></div> 
+            <h1>Delete Your Account?</h1>
+            <input type="text" id="removeKey" placeholder="Enter Username">
+            <input type="password" id="removeValue" placeholder="Enter Password">
+            <button type="button" id="btnRemove">Remove Account</button>
         </div>
      </div>
         <script src="stored.js"></script>
