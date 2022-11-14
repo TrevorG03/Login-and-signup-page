@@ -171,3 +171,13 @@ img{
     display: inline-block;
     color: rgb(39, 37, 31);
 }
+#lsOutput {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 15px;
+    color: black;
+}
+#outPutP {
+    font-size: 32px;
+    color: black;
+}

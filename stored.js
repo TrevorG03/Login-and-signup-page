@@ -54,7 +54,7 @@ function myFunction() {
       var key = localStorage.key(i);
       var value = localStorage.getItem(key);
   
-      lsOutput.innerHTML += `${key}: ${value}<br/>`;
+      lsOutput.innerHTML += `${key}`;
   };
   
   var removeKey = document.getElementById("removeKey");
