@@ -159,7 +159,11 @@ footer ul li a{
     text-decoration: none;
     font-weight: 750;
 }
-
+#footer-container {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
 .footer-quick-links{
     margin-left: 15%;
     margin-right: 15%;
@@ -196,5 +200,9 @@ img{
 }
 #outPutP {
     font-size: 32px;
+    color: black;
+}
+#small {
+    text-align: center;
     color: black;
 }
