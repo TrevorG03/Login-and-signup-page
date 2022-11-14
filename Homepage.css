@@ -153,10 +153,17 @@ footer ul li a{
     color: rgb(39, 37, 31);
     font-size: 20px;
     text-decoration: none;
-    font-weight: 750;    color: rgb(39, 37, 31);
+    font-weight: 750;    
+    color: rgb(39, 37, 31);
     font-size: 20px;
     text-decoration: none;
     font-weight: 750;
+}
+
+.footer-quick-links{
+    margin-left: 15%;
+    margin-right: 15%;
+    flex-direction: ;
 }
 
 img{
@@ -164,45 +171,21 @@ img{
     height: 100px;
     width: 100px;
 }
+#Rewards{
+    font-weight: 500;
+}
 .Deals{
-    font-size: 15px;
+    font-size: 25px;
     font-weight: 500;
     color: rgb(39, 37, 31);
 }
 .card {
-    height: 400px;
+    height: 1250px;
     width: 100%;
     border: 3px solid rgb(39, 37, 31);  
     background-image: url("https://img.wallpapersafari.com/desktop/800/450/85/72/sljC0t.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.card-side {
-    -webkit-transition: all 2s linear;
-    transition: all 2s linear;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    width: 100%;
-    height: 100%;
-    border-radius: 0.5rem;
-    visibility: visible;
-}
-
-.card-back {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    display: inline-block;
-}
-
-.card:hover .card-front {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-
-.card:hover .card-back {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
 }
 
 #lsOutput {
